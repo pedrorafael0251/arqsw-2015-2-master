@@ -14,6 +14,10 @@ public class SSAACImp implements SSAAC {
 	public void setUserBI(UserBI userBI) {
 		this.userBI = userBI;
 	}
+
+	public void setSubmissionBI(SubmissionBI userBI) {
+		this.submissionBI = submissionBI;
+	}
 	
 	@Override
 	public void addStudentAuthor(Student student) {
